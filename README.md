@@ -33,3 +33,7 @@ To install above libraries use pip3 which comes with Python 3.x installation, fo
 To run the script, in command prompt execute:
 
 `python mc2221a.py`
+
+Demo:
+
+![demo gif](https://github.com/nickGermi/monitor-brightness-manager/raw/main/demo.gif)
