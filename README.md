@@ -6,7 +6,7 @@ Hardware
 - Adafruit TSL2591 (https://www.adafruit.com/product/1980)
 - STEMMA QT 50mm cable (https://www.adafruit.com/product/4399)
 - USB C cable to connect to your computer
-- Monitor with DDC/CI capabilities (most modern MY2010+ monitors)
+- Monitor with DDC/CI capabilities (most modern monitors)
 - PC
 
 Optional hardware:
