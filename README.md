@@ -12,12 +12,14 @@ Automatically adjust monitor brightness based on ambient light on a Windows PC
 
 ![hardware screenshot](https://github.com/nickGermi/monitor-brightness-manager/raw/main/mcp2221a-tsl2591.jpg)
 
-## Software requirements:
+## Software requirements
+
 * Python 3.x
 * Windows 11 (On other versions of Windows you might have to adjust `BLINKA_MCP2221_RESET_DELAY` value setting it to `0.5` or higher)
 * Microsoft Visual C++ 14.0 or greater (You can get this by installing Microsoft Visual Studio and installing Build Tools for Visual Studio 2019)
 
-## Python libraries:
+## Python libraries
+
 * screen_brightness_control
 * setuptools
 * hidapi
@@ -29,18 +31,27 @@ To install above libraries use pip3 which comes with Python 3.x installation, fo
 pip3 install --upgrade screen_brightness_control
 ```
 
+## Usage
+
 To run the script, in command prompt execute:
 ```
 python mc2221a.py
 ```
 
-## Demo:
+## Demo
+
 ![demo gif](https://github.com/nickGermi/monitor-brightness-manager/raw/main/demo.gif)
 
-## Known issues:
+## Known issues
+
 * If you put your computer to sleep, you have to restart the script once it wakes up
 
-## Troubleshooting & additional references:
+## Troubleshooting & additional references
+
 * [Setting up MCP2221A](https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-mcp2221/windows)
 * [Screen brightness control library used in this script](https://pypi.org/project/screen-brightness-control/)
 * [C++ based monitor configuration utility, for example you can also change contrast](https://github.com/scottaxcell/winddcutil?msclkid=4472c115b29411eca79cd7052c4b75a4)
+
+## License
+
+[MIT License](https://github.com/nickGermi/monitor-brightness-manager/blob/main/LICENSE)
