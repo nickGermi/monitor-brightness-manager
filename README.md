@@ -12,6 +12,8 @@ Hardware
 Optional hardware:
 - Black Nylon Machine Screw and Stand-off Set – M2.5 Thread (https://www.adafruit.com/product/3299)
 
+![hardware screenshot](https://github.com/nickGermi/monitor-brightness-manager/raw/main/mcp2221a-tsl2591.jpg)
+
 Software requirements:
 - Python 3.x
 - Windows 11 (On other versions of Windows you might have to adjust `BLINKA_MCP2221_RESET_DELAY` value setting it to `0.5` or higher)
