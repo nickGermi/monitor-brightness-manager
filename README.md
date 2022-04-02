@@ -1,5 +1,5 @@
 # monitor-brightness-manager
-Automatically adjust monitor brightness based on ambient light
+Automatically adjust monitor brightness based on ambient light on a Windows PC
 
 Hardware
 - Adafruit MCP2221A (https://www.adafruit.com/product/4471)
