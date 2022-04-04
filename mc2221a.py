@@ -101,7 +101,7 @@ def set_brightness(brvalue):
 def switcher(argument):
     for key in config["lux_range"]:
         if type(key) is range and argument in key and cb != config["lux_range"][key]:
-            print(CSI + "33;40m" + datetime.datetime.today().strftime("%I:%M%p") + CSI + "0m Last {0} seconds average Lux is {1} setting brightness to {2}%".format(config["average_lux_count"], argument, config["lux_range"][key]))
+            print(CSI + "33;40m" + datetime.datetime.today().strftime("[%I:%M%p]") + CSI + "0m Last {0} seconds average Lux is {1} setting brightness to {2}%".format(config["average_lux_count"], argument, config["lux_range"][key]))
             set_brightness(config["lux_range"][key])
 
 def print_initial_status(args):
