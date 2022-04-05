@@ -35,16 +35,12 @@ pip3 install --upgrade screen_brightness_control
 
 To run the script, in command prompt execute:
 ```
-python mc2221a.py
+python monitor_brightness_manager.py
 ```
 
 ## Demo
 
 ![demo gif](https://github.com/nickGermi/monitor-brightness-manager/raw/main/demo.gif)
-
-## Known issues
-
-* If you put your computer to sleep, you have to restart the script once it wakes up
 
 ## Troubleshooting & additional references
 
