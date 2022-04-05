@@ -132,7 +132,7 @@ if __name__ == '__main__':
     os.environ['BLINKA_MCP2221_RESET_DELAY'] = config["BLINKA_MCP2221_RESET_DELAY"]
     CSI = "\x1B["
     scriptheader = """┌────────────────────────────────────────┐
-│  Monitor Brightness Manager v0.3       │
+│  Monitor Brightness Manager v0.4       │
 │  Light sensor: TSL2591                 │
 │  USB 2.0 to I2C converter: MCP2221A    │
 └────────────────────────────────────────┘"""
