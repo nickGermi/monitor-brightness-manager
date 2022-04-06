@@ -8,9 +8,9 @@
 * Inexpensive plug-n-play hardware
 
 ### Hardware you'll need to get
-* [Adafruit MCP2221A](https://www.adafruit.com/product/4471)
-* [Adafruit TSL2591](https://www.adafruit.com/product/1980)
-* [STEMMA QT 50mm cable](https://www.adafruit.com/product/4399)
+* [Adafruit MCP2221A](https://www.adafruit.com/product/4471) `USB to I2C Converter`
+* [Adafruit TSL2591](https://www.adafruit.com/product/1980) `Ambient Light Sensor`
+* [STEMMA QT 50mm cable](https://www.adafruit.com/product/4399) `Cable to connect above boards together`
 * [Black Nylon Machine Screw and Stand-off Set – M2.5 Thread](https://www.adafruit.com/product/3299) `optional`
 * USB C cable to connect to your computer
 * Monitor with DDC/CI capabilities (most modern monitors)
