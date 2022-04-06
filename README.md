@@ -40,8 +40,12 @@ pip3 install --upgrade adafruit-blinka
 pip3 install --upgrade adafruit_tsl2591
 ```
 
-### Script Configuration
-Download and asve [monitor_brightness_manager.py](https://raw.githubusercontent.com/nickGermi/monitor-brightness-manager/main/monitor_brightness_manager.py) file and edit it in a notepad or editor of your choice editing following as you see fit and save the file:
+### Download monitor-brightness-manager script
+A simple way to get the script is to `right click` on following link and select `Save Link As`
+* [monitor_brightness_manager.py](https://raw.githubusercontent.com/nickGermi/monitor-brightness-manager/main/monitor_brightness_manager.py)
+
+### Configuration
+Download and save [monitor_brightness_manager.py](https://raw.githubusercontent.com/nickGermi/monitor-brightness-manager/main/monitor_brightness_manager.py) file if you haven't done yet and edit it in a notepad or editor of your choice editing following as you see fit and save the file:
 ```
 config = {
     "BLINKA_MCP2221": "1",
