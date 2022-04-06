@@ -3,11 +3,11 @@
 [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=Q77D5ZHFFMHGL)
 
-## Automatically adjust monitor brightness based on ambient light on a Windows PC using inexpensive hardware that you'll be building yourself!
+## Automatically adjust monitor brightness based on ambient light on a Windows PC or laptop using inexpensive hardware that you'll be building yourself!
 
 * No coding or programming skills required
 * No soldering
-* Inexpensive plug-n-play hardware
+* Plug-n-play hardware
 
 ### Hardware you'll need to get
 * [Adafruit MCP2221A](https://www.adafruit.com/product/4471) `USB to I2C Converter`
