@@ -1,4 +1,5 @@
 # monitor-brightness-manager
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=Q77D5ZHFFMHGL)
 
 ## Automatically adjust monitor brightness based on ambient light on a Windows PC using inexpensive hardware that you'll be building yourself!
 
