@@ -118,7 +118,7 @@ if __name__ == "__main__":
     script = sys.argv[0]
     os.environ["BLINKA_MCP2221"] = config["BLINKA_MCP2221"]
     os.environ["BLINKA_MCP2221_RESET_DELAY"] = config["BLINKA_MCP2221_RESET_DELAY"]
-    print("\x1B[33;40mMonitor Brightness Manager v0.5\nLight sensor: TSL2591\nI2C converter: MCP2221A\n\n\x1B[0m")
+    print("\x1B[33;40mgithub.com/nickGermi/monitor-brightness-manager\nMonitor Brightness Manager v0.5\nI2C converter: MCP2221A\nLight sensor: TSL2591\n\n\x1B[0m")
     cb = get_brightness()
     sensor = get_sensor_value()
     lux = int(float(sensor.lux))
