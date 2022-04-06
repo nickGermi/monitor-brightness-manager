@@ -1,5 +1,7 @@
 # monitor-brightness-manager
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=Q77D5ZHFFMHGL) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nickGermi/monitor-brightness-manager/graphs/commit-activity) [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/nickGermi/monitor-brightness-manager/graphs/commit-activity) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=Q77D5ZHFFMHGL)
 
 ## Automatically adjust monitor brightness based on ambient light on a Windows PC using inexpensive hardware that you'll be building yourself!
 
@@ -72,12 +74,15 @@ config = {
 
 ### Usage
 
-After downloading and saving the [monitor_brightness_manager.py](https://raw.githubusercontent.com/nickGermi/monitor-brightness-manager/main/monitor_brightness_manager.py) file, to run the script, in command prompt enter:
+#### After downloading and saving the [monitor_brightness_manager.py](https://raw.githubusercontent.com/nickGermi/monitor-brightness-manager/main/monitor_brightness_manager.py) file, to run the script, in command prompt enter:
 ```
 python monitor_brightness_manager.py
 ```
 
-If you've saved the file in `C:\` drive, you'll need to execute the command as `python C:\monitor_brightness_manager.py`
+##### If you've saved the file in `C:\` drive, you'll need to execute the command as:
+```
+python C:\monitor_brightness_manager.py
+```
 
 ## Demo
 
