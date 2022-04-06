@@ -78,11 +78,13 @@ If you've saved the file in `C:\` drive, you'll need to execute the command as `
 
 ![demo gif](https://github.com/nickGermi/monitor-brightness-manager/raw/main/demo.gif)
 
-## Troubleshooting & additional references
+## Troubleshooting, additional references & information
 
 * [Setting up MCP2221A](https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-mcp2221/windows)
 * [Screen brightness control library used in this script](https://pypi.org/project/screen-brightness-control/)
 * [C++ based monitor configuration utility, for example you can also change contrast](https://github.com/scottaxcell/winddcutil?msclkid=4472c115b29411eca79cd7052c4b75a4)
+* On an older monitor that I tested (Dell U2312HM which is more than 10 years old), changing contrast has a better effect than changing brightness
+* Script will restart itself after 5 seconds if it encounters any issues
 
 ## License
 
