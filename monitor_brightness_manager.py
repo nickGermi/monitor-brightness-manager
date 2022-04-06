@@ -95,7 +95,7 @@ def get_brightness():
 def set_brightness(brvalue):
     global cb
     try:
-        screen_brightness_control.fade_brightness(brvalue, cb, display=config["display_id"], blocking=False)
+        screen_brightness_control.fade_brightness(brvalue, cb, display=config["display_id"], blocking=True)
         cb = brvalue
     except Exception as e:
         print("exception during set_brightness..", e)
