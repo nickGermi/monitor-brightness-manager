@@ -13,10 +13,10 @@
 * [Adafruit MCP2221A](https://www.adafruit.com/product/4471) `USB to I2C Converter`
 * [Adafruit TSL2591](https://www.adafruit.com/product/1980) `Ambient Light Sensor`
 * [STEMMA QT 50mm cable](https://www.adafruit.com/product/4399) `Cable to connect above boards together`
+* [USB Type-C cable](https://www.adafruit.com/product/4472) `Cable to connect everything to computer`
 * [Black Nylon Machine Screw and Stand-off Set – M2.5 Thread](https://www.adafruit.com/product/3299) `optional`
-* USB C cable to connect to your computer
 * Monitor with DDC/CI capabilities (most modern monitors)
-* PC
+> It would be a good idea to search for above items and buy from a local supplier if applicable in your region.
 
 ![hardware screenshot](https://github.com/nickGermi/monitor-brightness-manager/raw/main/mcp2221a-tsl2591.jpg)
 
@@ -64,13 +64,15 @@ config = {
         range(350, 400, 1): 90,
         range(400, 5500, 1): 100
     },
-    "average_lux_count": 10
+    "average_lux_count": 10,
+    "display_id": 0
 }
 ```
 * `BLINKA_MCP2221` needs to be `1`, this is required by BLINKA library
 * `BLINKA_MCP2221_RESET_DELAY` value should be `-1` for Windows 11, you can try `0.5` or higher if getting errors
 * `lux_range` this is where you can configure what brightness should your monitor use based on what ambient light condition, values are: (`lux_start`, `lux_end`, `increament_by`): `brightness`. For example, first one defines for ambient light value (lux) between 0 and 25, set brightness to 10%.
 * `average_lux_count` is amount of seconds to hold lux values before taking average of, if your monitor's brightness is changing too slow or too rapidly, adjust this value. Lower value will cause brightness to change more rapidly, higher value will make it slower.
+* `display_id` is your monitor's ID, primary monitor is 0 and it is set by default
 
 ### Usage
 
